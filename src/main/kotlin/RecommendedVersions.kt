@@ -8,7 +8,7 @@ object Brukernotifikasjon {
 }
 
 object Flyway {
-    private const val version = "5.2.4"
+    const val version = "5.2.4"
     const val core = "org.flywaydb:flyway-core:$version"
 }
 

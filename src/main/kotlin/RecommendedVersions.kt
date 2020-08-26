@@ -2,6 +2,11 @@
  * Anbefalte versjoner av tredjepartsbiblioteker.
  */
 
+object Bouncycastle {
+    private const val version = 1.64
+    const val bcprovJdk15on = "org.bouncycastle:bcprov-jdk15on:$version"
+}
+
 object Brukernotifikasjon {
     private const val version = "1.2020.02.07-13.16-fa9d319688b1"
     const val schemas = "no.nav:brukernotifikasjon-schemas:$version"
@@ -27,10 +32,22 @@ object Influxdb {
     const val java = "org.influxdb:influxdb-java:$version"
 }
 
+object Jackson {
+    private const val version = "2.9.9"
+    const val dataTypeJsr310 = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$version"
+}
+
 object Junit {
     private const val version = "5.4.1"
     const val api = "org.junit.jupiter:junit-jupiter-api:$version"
     const val engine = "org.junit.jupiter:junit-jupiter-engine:$version"
+}
+
+object Jjwt {
+    private const val version = "0.11.0"
+    const val api = "io.jsonwebtoken:jjwt-api:$version"
+    const val impl = "io.jsonwebtoken:jjwt-impl:$version"
+    const val jackson = "io.jsonwebtoken:jjwt-jackson:$version"
 }
 
 object Kafka {
@@ -54,13 +71,16 @@ object Kluent {
 }
 
 object Kotlin {
-    const val version = "1.3.50"
+    const val version = "1.3.70"
 }
 
 object Ktor {
-    private const val version = "1.3.0"
-    const val serverNetty = "io.ktor:ktor-server-netty:$version"
+    private const val version = "1.3.2"
+    const val auth = "io.ktor:ktor-auth:$version"
+    const val authJwt = "io.ktor:ktor-auth-jwt:$version"
     const val htmlBuilder = "io.ktor:ktor-html-builder:$version"
+    const val jackson = "io.ktor:ktor-jackson:$version"
+    const val serverNetty = "io.ktor:ktor-server-netty:$version"
 }
 
 object Logback {
@@ -81,6 +101,7 @@ object Mockk {
 object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.1"
     const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.1.1"
+    const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.1.0"
 }
 
 object Postgresql {
@@ -89,8 +110,10 @@ object Postgresql {
 }
 
 object Prometheus {
-    private const val version = "0.6.0"
+    private const val version = "0.8.1"
     const val common = "io.prometheus:simpleclient_common:$version"
     const val hotspot = "io.prometheus:simpleclient_hotspot:$version"
     const val logback = "io.prometheus:simpleclient_logback:$version"
+    const val simpleClient = "io.prometheus:simpleclient:$version"
+    const val simpleClientHttpServer = "io.prometheus:simpleclient_httpserver:$version"
 }

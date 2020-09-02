@@ -8,8 +8,8 @@ object Bouncycastle {
 }
 
 object Brukernotifikasjon {
-    private const val version = "1.2020.02.07-13.16-fa9d319688b1"
-    const val schemas = "no.nav:brukernotifikasjon-schemas:$version"
+    private const val version = "1.2020.08.21-11.47-631516352cc5"
+    const val schemas = "com.github.navikt:brukernotifikasjon-schemas:$version"
 }
 
 object Flyway {

@@ -1,6 +1,10 @@
 plugins {
     `kotlin-dsl`
-    `maven`
+    `maven-publish`
+}
+
+kotlinDslPluginOptions {
+    experimentalWarning.set(false)
 }
 
 repositories {

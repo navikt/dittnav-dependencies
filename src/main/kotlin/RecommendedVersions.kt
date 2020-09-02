@@ -3,7 +3,7 @@
  */
 
 object Bouncycastle {
-    private const val version = 1.64
+    private const val version = "1.64"
     const val bcprovJdk15on = "org.bouncycastle:bcprov-jdk15on:$version"
 }
 
@@ -66,12 +66,17 @@ object Kafka {
 }
 
 object Kluent {
-    private const val version = "1.52"
+    private const val version = "1.56"
     const val kluent = "org.amshove.kluent:kluent:$version"
 }
 
 object Kotlin {
     const val version = "1.3.70"
+}
+
+object Kotlinx {
+    const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
+    const val htmlJvm = "org.jetbrains.kotlinx:kotlinx-html-jvm:0.6.12"
 }
 
 object Ktor {
@@ -81,6 +86,14 @@ object Ktor {
     const val htmlBuilder = "io.ktor:ktor-html-builder:$version"
     const val jackson = "io.ktor:ktor-jackson:$version"
     const val serverNetty = "io.ktor:ktor-server-netty:$version"
+    const val clientApache = "io.ktor:ktor-client-apache:$version"
+    const val clientJson = "io.ktor:ktor-client-json:$version"
+    const val clientSerializationJvm = "io.ktor:ktor-client-serialization-jvm:$version"
+    const val clientJackson = "io.ktor:ktor-client-jackson:$version"
+    const val clientLogging = "io.ktor:ktor-client-logging:$version"
+    const val clientLoggingJvm = "io.ktor:ktor-client-logging-jvm:$version"
+    const val clientMock = "io.ktor:ktor-client-mock:$version"
+    const val clientMockJvm = "io.ktor:ktor-client-mock-jvm:$version"
 }
 
 object Logback {
@@ -101,7 +114,7 @@ object Mockk {
 object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.1"
     const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.1.1"
-    const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.1.0"
+    const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.0"
 }
 
 object Postgresql {
@@ -113,7 +126,7 @@ object Prometheus {
     private const val version = "0.8.1"
     const val common = "io.prometheus:simpleclient_common:$version"
     const val hotspot = "io.prometheus:simpleclient_hotspot:$version"
+    const val httpServer = "io.prometheus:simpleclient_httpserver:$version"
     const val logback = "io.prometheus:simpleclient_logback:$version"
     const val simpleClient = "io.prometheus:simpleclient:$version"
-    const val simpleClientHttpServer = "io.prometheus:simpleclient_httpserver:$version"
 }

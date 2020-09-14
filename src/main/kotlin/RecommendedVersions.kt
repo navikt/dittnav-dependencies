@@ -35,6 +35,7 @@ object Influxdb {
 object Jackson {
     private const val version = "2.9.9"
     const val dataTypeJsr310 = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$version"
+    const val moduleKotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:$version"
 }
 
 object Junit {

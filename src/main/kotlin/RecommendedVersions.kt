@@ -12,6 +12,17 @@ object Brukernotifikasjon {
     const val schemas = "com.github.navikt:brukernotifikasjon-schemas:$version"
 }
 
+object DittNAV {
+    object Common {
+        private const val version = "2020.09.17-14.30-fe793c77a159"
+        const val logging = "com.github.navikt.dittnav-common-lib:dittnav-common-logging:$version"
+        const val metrics = "com.github.navikt.dittnav-common-lib:dittnav-common-metrics:$version"
+        const val security = "com.github.navikt.dittnav-common-lib:dittnav-common-security:$version"
+        const val test = "com.github.navikt.dittnav-common-lib:dittnav-common-test:$version"
+        const val util = "com.github.navikt.dittnav-common-lib:dittnav-common-util:$version"
+    }
+}
+
 object Flyway {
     const val version = "5.2.4"
     const val core = "org.flywaydb:flyway-core:$version"

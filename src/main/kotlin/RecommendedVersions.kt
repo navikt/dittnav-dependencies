@@ -142,3 +142,8 @@ object Prometheus {
     const val logback = "io.prometheus:simpleclient_logback:$version"
     const val simpleClient = "io.prometheus:simpleclient:$version"
 }
+
+object Shadow {
+    const val version = "6.0.0"
+    const val pluginId = "com.github.johnrengelman.shadow"
+}

@@ -25,6 +25,7 @@ object DittNAV {
 
 object Flyway {
     const val version = "5.2.4"
+    const val pluginId = "org.flywaydb.flyway"
     const val core = "org.flywaydb:flyway-core:$version"
 }
 

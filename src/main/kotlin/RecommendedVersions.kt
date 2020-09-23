@@ -126,7 +126,7 @@ object Mockk {
 
 object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.1"
-    const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.1.1"
+    const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.5.0"
     const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.0"
 }
 

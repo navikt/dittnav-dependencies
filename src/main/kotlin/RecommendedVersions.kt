@@ -54,6 +54,7 @@ object Junit {
     private const val version = "5.4.1"
     const val api = "org.junit.jupiter:junit-jupiter-api:$version"
     const val engine = "org.junit.jupiter:junit-jupiter-engine:$version"
+    const val params = "org.junit.jupiter:junit-jupiter-params:$version"
 }
 
 object Jjwt {

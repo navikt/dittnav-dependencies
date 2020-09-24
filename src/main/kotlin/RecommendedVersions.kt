@@ -148,3 +148,8 @@ object Shadow {
     const val version = "6.0.0"
     const val pluginId = "com.github.johnrengelman.shadow"
 }
+
+object Auth0 {
+    private const val version = "3.10.3"
+    const val javajwt = "com.auth0.java-jwt:$version"
+}

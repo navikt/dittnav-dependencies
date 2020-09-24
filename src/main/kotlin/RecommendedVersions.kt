@@ -19,7 +19,7 @@ object DittNAV {
         const val metrics = "com.github.navikt.dittnav-common-lib:dittnav-common-metrics:$version"
         const val security = "com.github.navikt.dittnav-common-lib:dittnav-common-security:$version"
         const val test = "com.github.navikt.dittnav-common-lib:dittnav-common-test:$version"
-        const val util = "com.github.navikt.dittnav-common-lib:dittnav-common-util:$version"
+        const val utils = "com.github.navikt.dittnav-common-lib:dittnav-common-utils:$version"
     }
 }
 

@@ -152,5 +152,5 @@ object Shadow {
 
 object Auth0 {
     private const val version = "3.10.3"
-    const val javajwt = "com.auth0.java-jwt:$version"
+    const val javajwt = "com.auth0:java-jwt:$version"
 }

@@ -54,6 +54,7 @@ object Junit {
     private const val version = "5.4.1"
     const val api = "org.junit.jupiter:junit-jupiter-api:$version"
     const val engine = "org.junit.jupiter:junit-jupiter-engine:$version"
+    const val params = "org.junit.jupiter:junit-jupiter-params:$version"
 }
 
 object Jjwt {
@@ -147,4 +148,9 @@ object Prometheus {
 object Shadow {
     const val version = "6.0.0"
     const val pluginId = "com.github.johnrengelman.shadow"
+}
+
+object Auth0 {
+    private const val version = "3.10.3"
+    const val javajwt = "com.auth0.java-jwt:$version"
 }

@@ -14,7 +14,7 @@ object Brukernotifikasjon {
 
 object DittNAV {
     object Common {
-        private const val version = "2020.09.17-14.30-fe793c77a159"
+        private const val version = "2020.10.05-08.55-d4650785151c"
         const val logging = "com.github.navikt.dittnav-common-lib:dittnav-common-logging:$version"
         const val metrics = "com.github.navikt.dittnav-common-lib:dittnav-common-metrics:$version"
         const val security = "com.github.navikt.dittnav-common-lib:dittnav-common-security:$version"

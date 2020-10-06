@@ -15,16 +15,19 @@ object Brukernotifikasjon {
 object DittNAV {
     object Common {
         private const val version = "2020.10.05-08.55-d4650785151c"
-        const val logging = "com.github.navikt.dittnav-common-lib:dittnav-common-logging:$version"
-        const val metrics = "com.github.navikt.dittnav-common-lib:dittnav-common-metrics:$version"
-        const val security = "com.github.navikt.dittnav-common-lib:dittnav-common-security:$version"
-        const val test = "com.github.navikt.dittnav-common-lib:dittnav-common-test:$version"
-        const val utils = "com.github.navikt.dittnav-common-lib:dittnav-common-utils:$version"
+        private const val groupId = "com.github.navikt.dittnav-common-lib"
+
+        const val logging = "$groupId:dittnav-common-logging:$version"
+        const val metrics = "$groupId:dittnav-common-metrics:$version"
+        const val security = "$groupId:dittnav-common-security:$version"
+        const val test = "$groupId:dittnav-common-test:$version"
+        const val utils = "$groupId:dittnav-common-utils:$version"
     }
 }
 
 object Flyway {
     const val version = "5.2.4"
+
     const val pluginId = "org.flywaydb.flyway"
     const val core = "org.flywaydb:flyway-core:$version"
 }
@@ -46,36 +49,45 @@ object Influxdb {
 
 object Jackson {
     private const val version = "2.9.9"
+
     const val dataTypeJsr310 = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$version"
     const val moduleKotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:$version"
 }
 
 object Junit {
     private const val version = "5.4.1"
-    const val api = "org.junit.jupiter:junit-jupiter-api:$version"
-    const val engine = "org.junit.jupiter:junit-jupiter-engine:$version"
-    const val params = "org.junit.jupiter:junit-jupiter-params:$version"
+    private const val groupId = "org.junit.jupiter"
+
+    const val api = "$groupId:junit-jupiter-api:$version"
+    const val engine = "$groupId:junit-jupiter-engine:$version"
+    const val params = "$groupId:junit-jupiter-params:$version"
 }
 
 object Jjwt {
     private const val version = "0.11.0"
-    const val api = "io.jsonwebtoken:jjwt-api:$version"
-    const val impl = "io.jsonwebtoken:jjwt-impl:$version"
-    const val jackson = "io.jsonwebtoken:jjwt-jackson:$version"
+    private const val groupId = "io.jsonwebtoken"
+
+    const val api = "$groupId:jjwt-api:$version"
+    const val impl = "$groupId:jjwt-impl:$version"
+    const val jackson = "$groupId:jjwt-jackson:$version"
 }
 
 object Kafka {
     object Apache {
         private const val version = "2.3.0"
-        const val clients = "org.apache.kafka:kafka-clients:$version"
-        const val kafka_2_12 = "org.apache.kafka:kafka_2.12:$version"
-        const val streams = "org.apache.kafka:kafka-streams:$version"
+        private const val groupId = "org.apache.kafka"
+
+        const val clients = "$groupId:kafka-clients:$version"
+        const val kafka_2_12 = "$groupId:kafka_2.12:$version"
+        const val streams = "$groupId:kafka-streams:$version"
     }
 
     object Confluent {
         private const val version = "5.3.0"
-        const val avroSerializer = "io.confluent:kafka-avro-serializer:$version"
-        const val schemaRegistry = "io.confluent:kafka-schema-registry:$version"
+        private const val groupId = "io.confluent"
+
+        const val avroSerializer = "$groupId:kafka-avro-serializer:$version"
+        const val schemaRegistry = "$groupId:kafka-schema-registry:$version"
     }
 }
 
@@ -89,12 +101,16 @@ object Kotlin {
 }
 
 object Kotlinx {
-    const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
-    const val htmlJvm = "org.jetbrains.kotlinx:kotlinx-html-jvm:0.6.12"
+    private const val groupId = "org.jetbrains.kotlinx"
+
+    const val coroutines = "$groupId:kotlinx-coroutines-core:1.3.3"
+    const val htmlJvm = "$groupId:kotlinx-html-jvm:0.6.12"
 }
 
 object Ktor {
     private const val version = "1.3.2"
+    private const val groupId = "io.ktor"
+
     const val auth = "io.ktor:ktor-auth:$version"
     const val authJwt = "io.ktor:ktor-auth-jwt:$version"
     const val htmlBuilder = "io.ktor:ktor-html-builder:$version"
@@ -138,11 +154,13 @@ object Postgresql {
 
 object Prometheus {
     private const val version = "0.8.1"
-    const val common = "io.prometheus:simpleclient_common:$version"
-    const val hotspot = "io.prometheus:simpleclient_hotspot:$version"
-    const val httpServer = "io.prometheus:simpleclient_httpserver:$version"
-    const val logback = "io.prometheus:simpleclient_logback:$version"
-    const val simpleClient = "io.prometheus:simpleclient:$version"
+    private const val groupId = "io.prometheus"
+
+    const val common = "$groupId:simpleclient_common:$version"
+    const val hotspot = "$groupId:simpleclient_hotspot:$version"
+    const val httpServer = "$groupId:simpleclient_httpserver:$version"
+    const val logback = "$groupId:simpleclient_logback:$version"
+    const val simpleClient = "$groupId:simpleclient:$version"
 }
 
 object Shadow {

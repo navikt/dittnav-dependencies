@@ -91,7 +91,7 @@ object Kafka {
 }
 
 object Kluent {
-    private const val version = "1.56"
+    private const val version = "1.61"
     const val kluent = "org.amshove.kluent:kluent:$version"
 }
 

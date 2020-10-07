@@ -2,6 +2,11 @@
  * Anbefalte versjoner av tredjepartsbiblioteker.
  */
 
+object Auth0 {
+    private const val version = "3.11.0"
+    const val javajwt = "com.auth0:java-jwt:$version"
+}
+
 object Bouncycastle {
     private const val version = "1.66"
     const val bcprovJdk15on = "org.bouncycastle:bcprov-jdk15on:$version"
@@ -164,9 +169,4 @@ object Prometheus {
 object Shadow {
     const val version = "6.0.0"
     const val pluginId = "com.github.johnrengelman.shadow"
-}
-
-object Auth0 {
-    private const val version = "3.11.0"
-    const val javajwt = "com.auth0:java-jwt:$version"
 }

@@ -48,8 +48,7 @@ object Influxdb {
 
 object Jackson {
     private const val version = "2.11.3"
-    private const val groupId = "com.fasterxml.jackson.datatype"
-    const val dataTypeJsr310 = "$groupId:jackson-datatype-jsr310:$version"
+    const val dataTypeJsr310 = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$version"
     const val moduleKotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:$version"
 }
 
@@ -110,19 +109,19 @@ object Ktor {
     private const val version = "1.4.1"
     private const val groupId = "io.ktor"
 
-    const val auth = "io.ktor:ktor-auth:$version"
-    const val authJwt = "io.ktor:ktor-auth-jwt:$version"
-    const val htmlBuilder = "io.ktor:ktor-html-builder:$version"
-    const val jackson = "io.ktor:ktor-jackson:$version"
-    const val serverNetty = "io.ktor:ktor-server-netty:$version"
-    const val clientApache = "io.ktor:ktor-client-apache:$version"
-    const val clientJson = "io.ktor:ktor-client-json:$version"
-    const val clientSerializationJvm = "io.ktor:ktor-client-serialization-jvm:$version"
-    const val clientJackson = "io.ktor:ktor-client-jackson:$version"
-    const val clientLogging = "io.ktor:ktor-client-logging:$version"
-    const val clientLoggingJvm = "io.ktor:ktor-client-logging-jvm:$version"
-    const val clientMock = "io.ktor:ktor-client-mock:$version"
-    const val clientMockJvm = "io.ktor:ktor-client-mock-jvm:$version"
+    const val auth = "$groupId:ktor-auth:$version"
+    const val authJwt = "$groupId:ktor-auth-jwt:$version"
+    const val htmlBuilder = "$groupId:ktor-html-builder:$version"
+    const val jackson = "$groupId:ktor-jackson:$version"
+    const val serverNetty = "$groupId:ktor-server-netty:$version"
+    const val clientApache = "$groupId:ktor-client-apache:$version"
+    const val clientJson = "$groupId:ktor-client-json:$version"
+    const val clientSerializationJvm = "$groupId:ktor-client-serialization-jvm:$version"
+    const val clientJackson = "$groupId:ktor-client-jackson:$version"
+    const val clientLogging = "$groupId:ktor-client-logging:$version"
+    const val clientLoggingJvm = "$groupId:ktor-client-logging-jvm:$version"
+    const val clientMock = "$groupId:ktor-client-mock:$version"
+    const val clientMockJvm = "$groupId:ktor-client-mock-jvm:$version"
 }
 
 object Logback {

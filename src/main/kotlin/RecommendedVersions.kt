@@ -170,3 +170,11 @@ object Shadow {
     const val version = "6.0.0"
     const val pluginId = "com.github.johnrengelman.shadow"
 }
+
+object TestContainers {
+    private const val version = "1.15.0-rc2"
+    private const val groupId = "org.testcontainers"
+
+    const val junitJupiter = "$groupId:junit-jupiter:$version"
+    const val testContainers = "$groupId:testcontainers:$version"
+}

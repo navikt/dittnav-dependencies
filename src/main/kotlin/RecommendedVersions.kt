@@ -19,7 +19,7 @@ object Brukernotifikasjon {
 
 object DittNAV {
     object Common {
-        private const val version = "2020.10.05-08.55-d4650785151c"
+        private const val version = "2020.10.15-14.19-8f27941680d9"
         private const val groupId = "com.github.navikt.dittnav-common-lib"
 
         const val logging = "$groupId:dittnav-common-logging:$version"

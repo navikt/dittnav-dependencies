@@ -8,6 +8,8 @@ object DockerComposeDefaults {
         "OIDC_ISSUER" to "http://localhost:9000",
         "OIDC_DISCOVERY_URL" to "http://localhost:9000/.well-known/openid-configuration",
         "OIDC_ACCEPTED_AUDIENCE" to "stubOidcClient",
+        "LOGINSERVICE_IDPORTEN_DISCOVERY_URL" to "http://localhost:9000/.well-known/openid-configuration",
+        "LOGINSERVICE_IDPORTEN_AUDIENCE" to "stubOidcClient",
         "OIDC_CLAIM_CONTAINING_THE_IDENTITY" to "pid",
 
         "KAFKA_BOOTSTRAP_SERVERS" to "localhost:29092",

@@ -13,8 +13,13 @@ object Bouncycastle {
 }
 
 object Brukernotifikasjon {
-    private const val version = "1.2020.08.21-11.47-631516352cc5"
+    private const val version = "ekstern-varsling-SNAPSHOT"
     const val schemas = "com.github.navikt:brukernotifikasjon-schemas:$version"
+}
+
+object Doknotifikasjon {
+    private const val version = "1.2020.10.28-11.16-ef7371b0ca84"
+    const val schemas = "com.github.navikt:doknotifikasjon-schemas:$version"
 }
 
 object DittNAV {

@@ -158,6 +158,7 @@ object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.7"
     const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.5.0"
     const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.0"
+    const val customKtorCorsFeature = "com.github.navikt:wildcard-subdomain-ktor-cors-feature:2020.11.03-14.59-81af587291fd"
 }
 
 object Postgresql {

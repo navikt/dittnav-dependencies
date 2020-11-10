@@ -4,6 +4,7 @@ object DockerComposeDefaults {
         "LEGACY_API_URL" to "http://localhost:8090/person/dittnav-legacy-api",
         "EVENT_HANDLER_URL" to "http://localhost:8092",
         "CORS_ALLOWED_ORIGINS" to "localhost:9002",
+        "INNLOGGINGSSTATUS_URL" to "http://localhost:9081/person/innloggingsstatus",
 
         "OIDC_ISSUER" to "http://localhost:9000",
         "OIDC_DISCOVERY_URL" to "http://localhost:9000/.well-known/openid-configuration",

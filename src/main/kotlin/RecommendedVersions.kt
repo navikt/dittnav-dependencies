@@ -189,3 +189,10 @@ object TestContainers {
     const val junitJupiter = "$groupId:junit-jupiter:$version"
     const val testContainers = "$groupId:testcontainers:$version"
 }
+
+object Awaitility {
+    private const val version = "4.0.3"
+    private const val groupId = "org.awaitility"
+
+    const val awaitilityKotlin = "$groupId:awaitility-kotlin:$version"
+}

@@ -190,6 +190,13 @@ object TestContainers {
     const val testContainers = "$groupId:testcontainers:$version"
 }
 
+object Unleash {
+    private const val version = "3.3.1"
+    private const val groupId = "no.finn.unleash"
+
+    const val clientJava = "$groupId:unleash-client-java:$version"
+}
+
 object Awaitility {
     private const val version = "4.0.3"
     private const val groupId = "org.awaitility"

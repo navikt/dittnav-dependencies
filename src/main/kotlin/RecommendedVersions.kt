@@ -183,7 +183,7 @@ object Shadow {
 }
 
 object TestContainers {
-    private const val version = "1.15.0-rc2"
+    private const val version = "1.15.1"
     private const val groupId = "org.testcontainers"
 
     const val junitJupiter = "$groupId:junit-jupiter:$version"

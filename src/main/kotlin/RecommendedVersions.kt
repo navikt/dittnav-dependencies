@@ -13,7 +13,7 @@ object Bouncycastle {
 }
 
 object Brukernotifikasjon {
-    private const val version = "ekstern-varsling-SNAPSHOT"
+    private const val version = "1.2021.01.18-11.12-b9c8c40b98d1"
     const val schemas = "com.github.navikt:brukernotifikasjon-schemas:$version"
 }
 

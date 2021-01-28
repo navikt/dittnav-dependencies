@@ -28,10 +28,10 @@ object DittNAV {
         private const val groupId = "com.github.navikt.dittnav-common-lib"
 
         const val logging = "$groupId:dittnav-common-logging:$version"
-        const val metrics = "$groupId:dittnav-common-metrics:$version"
-        const val security = "$groupId:dittnav-common-security:$version"
-        const val test = "$groupId:dittnav-common-test:$version"
+        const val influx = "$groupId:dittnav-common-influx:$version"
+        const val securityAuthenticatedUser = "$groupId:dittnav-common-security-authenticated-user:$version"
         const val utils = "$groupId:dittnav-common-utils:$version"
+        const val evictingCache = "$groupId:dittnav-common-evicting-cache:$version"
     }
 }
 

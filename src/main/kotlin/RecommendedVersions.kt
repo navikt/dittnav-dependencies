@@ -24,7 +24,7 @@ object Doknotifikasjon {
 
 object DittNAV {
     object Common {
-        private const val version = "2020.11.13-09.30-2bb302c85eca"
+        private const val version = "2021.01.28-11.08-2bb79661d7e6"
         private const val groupId = "com.github.navikt.dittnav-common-lib"
 
         const val logging = "$groupId:dittnav-common-logging:$version"

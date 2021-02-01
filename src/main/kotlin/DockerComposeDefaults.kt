@@ -27,7 +27,7 @@ object DockerComposeDefaults {
         "NAIS_CLUSTER_NAME" to "dev-sbs",
         "NAIS_NAMESPACE" to "q1",
         "SENSU_HOST" to "stub",
-        "SENSU_PORT" to "",
+        "SENSU_PORT" to "0",
         "PRODUCER_ALIASES" to ""
     )
 

@@ -17,6 +17,11 @@ object Brukernotifikasjon {
     const val schemas = "com.github.navikt:brukernotifikasjon-schemas:$version"
 }
 
+object Brukernotifikasjon_internal {
+    private const val version = "1.2021.02.15-10.31-d3b3b298927a"
+    const val schemas = "com.github.navikt:brukernotifikasjon-schemas-internal:$version"
+}
+
 object Doknotifikasjon {
     private const val version = "1.2020.11.16-09.27-d037b30bb0ea"
     const val schemas = "com.github.navikt:doknotifikasjon-schemas:$version"

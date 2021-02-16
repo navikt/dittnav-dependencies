@@ -7,6 +7,13 @@ object Auth0 {
     const val javajwt = "com.auth0:java-jwt:$version"
 }
 
+object Awaitility {
+    private const val version = "4.0.3"
+    private const val groupId = "org.awaitility"
+
+    const val awaitilityKotlin = "$groupId:awaitility-kotlin:$version"
+}
+
 object Bouncycastle {
     private const val version = "1.66"
     const val bcprovJdk15on = "org.bouncycastle:bcprov-jdk15on:$version"
@@ -190,16 +197,16 @@ object TestContainers {
     const val testContainers = "$groupId:testcontainers:$version"
 }
 
+object ULID {
+    private const val version = "8.2.0"
+    private const val groupId = "de.huxhorn.sulky"
+
+    const val sulkyUlid = "$groupId:de.huxhorn.sulky.ulid:$version"
+}
+
 object Unleash {
     private const val version = "3.3.1"
     private const val groupId = "no.finn.unleash"
 
     const val clientJava = "$groupId:unleash-client-java:$version"
-}
-
-object Awaitility {
-    private const val version = "4.0.3"
-    private const val groupId = "org.awaitility"
-
-    const val awaitilityKotlin = "$groupId:awaitility-kotlin:$version"
 }

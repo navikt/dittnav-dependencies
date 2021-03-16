@@ -87,6 +87,7 @@ object Jjwt {
     const val api = "$groupId:jjwt-api:$version"
     const val impl = "$groupId:jjwt-impl:$version"
     const val jackson = "$groupId:jjwt-jackson:$version"
+    const val orgjson = "$groupId:jjwt-orgjson:$version"
 }
 
 object Kafka {
@@ -138,7 +139,7 @@ object Kotlinx {
 }
 
 object Ktor {
-    private const val version = "1.4.1"
+    private const val version = "1.5.2"
     private const val groupId = "io.ktor"
 
     const val auth = "$groupId:ktor-auth:$version"

@@ -183,8 +183,8 @@ object NAV {
 }
 
 object Postgresql {
-    private const val version_postgresql = "42.2.16"
-    const val postgresql = "org.postgresql:postgresql:$version_postgresql"
+    private const val version = "42.2.16"
+    const val postgresql = "org.postgresql:postgresql:$version"
 }
 
 object Prometheus {

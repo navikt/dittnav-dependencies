@@ -209,6 +209,7 @@ object TestContainers {
 
     const val junitJupiter = "$groupId:junit-jupiter:$version"
     const val testContainers = "$groupId:testcontainers:$version"
+    const val postgresql = "$groupId:postgresql:$version"
 }
 
 object ULID {

@@ -1,34 +1,42 @@
 object DockerComposeDefaults {
 
-    val environomentVariables : Map<String, String> = mutableMapOf(
-        "LEGACY_API_URL" to "http://localhost:8090/person/dittnav-legacy-api",
-        "EVENT_HANDLER_URL" to "http://localhost:8092",
-        "CORS_ALLOWED_ORIGINS" to "localhost:9002",
-        "INNLOGGINGSSTATUS_URL" to "http://localhost:9081/person/innloggingsstatus",
+    val environomentVariables: Map<String, String> = mutableMapOf(
+            "LEGACY_API_URL" to "http://localhost:8090/person/dittnav-legacy-api",
+            "EVENT_HANDLER_URL" to "http://localhost:8092",
+            "CORS_ALLOWED_ORIGINS" to "localhost:9002",
+            "INNLOGGINGSSTATUS_URL" to "http://localhost:9081/person/innloggingsstatus",
 
-        "OIDC_ISSUER" to "http://localhost:9000",
-        "OIDC_DISCOVERY_URL" to "http://localhost:9000/.well-known/openid-configuration",
-        "OIDC_ACCEPTED_AUDIENCE" to "stubOidcClient",
-        "LOGINSERVICE_IDPORTEN_DISCOVERY_URL" to "http://localhost:9000/.well-known/openid-configuration",
-        "LOGINSERVICE_IDPORTEN_AUDIENCE" to "stubOidcClient",
-        "OIDC_CLAIM_CONTAINING_THE_IDENTITY" to "pid",
+            "OIDC_ISSUER" to "http://localhost:9000",
+            "OIDC_DISCOVERY_URL" to "http://localhost:9000/.well-known/openid-configuration",
+            "OIDC_ACCEPTED_AUDIENCE" to "stubOidcClient",
+            "LOGINSERVICE_IDPORTEN_DISCOVERY_URL" to "http://localhost:9000/.well-known/openid-configuration",
+            "LOGINSERVICE_IDPORTEN_AUDIENCE" to "stubOidcClient",
+            "OIDC_CLAIM_CONTAINING_THE_IDENTITY" to "pid",
 
-        "KAFKA_BOOTSTRAP_SERVERS" to "localhost:29092",
-        "KAFKA_SCHEMAREGISTRY_SERVERS" to "http://localhost:8081",
-        "SERVICEUSER_USERNAME" to "username",
-        "SERVICEUSER_PASSWORD" to "password",
-        "GROUP_ID" to "dittnav_events",
+            "KAFKA_BOOTSTRAP_SERVERS" to "localhost:29092",
+            "KAFKA_SCHEMAREGISTRY_SERVERS" to "http://localhost:8081",
+            "SERVICEUSER_USERNAME" to "username",
+            "SERVICEUSER_PASSWORD" to "password",
+            "GROUP_ID" to "dittnav_events",
 
-        "DB_HOST" to "localhost:5432",
-        "DB_NAME" to "dittnav-event-cache-preprod",
-        "DB_PASSWORD" to "testpassword",
-        "DB_MOUNT_PATH" to "notUsedOnLocalhost",
+            "DB_HOST" to "localhost:5432",
+            "DB_NAME" to "dittnav-event-cache-preprod",
+            "DB_PASSWORD" to "testpassword",
+            "DB_MOUNT_PATH" to "notUsedOnLocalhost",
 
-        "NAIS_CLUSTER_NAME" to "dev-sbs",
-        "NAIS_NAMESPACE" to "q1",
-        "SENSU_HOST" to "stub",
-        "SENSU_PORT" to "0",
-        "PRODUCER_ALIASES" to ""
+            "NAIS_CLUSTER_NAME" to "dev-sbs",
+            "NAIS_NAMESPACE" to "q1",
+            "SENSU_HOST" to "stub",
+            "SENSU_PORT" to "0",
+            "PRODUCER_ALIASES" to "",
+
+            "KAFKA_BROKERS" to "localhost:29092",
+            "KAFKA_TRUSTSTORE_PATH" to "truststore_path",
+            "KAFKA_KEYSTORE_PATH" to "keystore_path",
+            "KAFKA_CREDSTORE_PASSWORD" to "password",
+            "KAFKA_SCHEMA_REGISTRY" to "http://localhost:8081",
+            "KAFKA_SCHEMA_REGISTRY_USER" to "username",
+            "KAFKA_SCHEMA_REGISTRY_PASSWORD" to "password"
     )
 
 }

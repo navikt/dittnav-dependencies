@@ -26,9 +26,17 @@ object DockerComposeDefaults {
 
         "NAIS_CLUSTER_NAME" to "dev-sbs",
         "NAIS_NAMESPACE" to "q1",
+
         "SENSU_HOST" to "stub",
         "SENSU_PORT" to "0",
-        "PRODUCER_ALIASES" to ""
+        "PRODUCER_ALIASES" to "",
+
+        "INFLUXDB_HOST" to "",
+        "INFLUXDB_PORT" to "0",
+        "INFLUXDB_DATABASE_NAME" to "",
+        "INFLUXDB_USER" to "",
+        "INFLUXDB_PASSWORD" to "",
+        "INFLUXDB_RETENTION_POLICY" to ""
     )
 
 }

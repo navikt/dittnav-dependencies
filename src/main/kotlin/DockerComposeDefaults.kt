@@ -26,7 +26,8 @@ object DockerComposeDefaults {
         "DB_HOST" to "localhost:5432",
         "DB_PORT" to "5432",
         "DB_NAME" to "dittnav-event-cache-preprod",
-        "DB_USERNAME" to "dittnav-event-cache-preprod-admin",
+        "DB_DATABASE" to "dittnav-event-cache-preprod",
+        "DB_USERNAME" to "dittnav-event-cache-preprod-user",
         "DB_PASSWORD" to "testpassword",
         "DB_MOUNT_PATH" to "notUsedOnLocalhost",
 

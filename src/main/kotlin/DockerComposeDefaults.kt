@@ -14,7 +14,11 @@ object DockerComposeDefaults {
         "OIDC_CLAIM_CONTAINING_THE_IDENTITY" to "pid",
 
         "KAFKA_BOOTSTRAP_SERVERS" to "localhost:29092",
+        "KAFKA_BROKERS" to "localhost:29092",
+
         "KAFKA_SCHEMAREGISTRY_SERVERS" to "http://localhost:8081",
+        "KAFKA_SCHEMA_REGISTRY" to "http://localhost:8081",
+
         "SERVICEUSER_USERNAME" to "username",
         "SERVICEUSER_PASSWORD" to "password",
         "GROUP_ID" to "dittnav_events",

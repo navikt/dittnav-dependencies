@@ -212,6 +212,20 @@ object TestContainers {
     const val postgresql = "$groupId:postgresql:$version"
 }
 
+object Tms {
+    object KtorTokenSupport {
+        private const val version = "2021.08.04-15.00-9d8a637f971e"
+        private const val groupId = "com.github.navikt.tms-ktor-token-support"
+
+        const val authenticationInstaller = "$groupId:token-support-authentication-installer:$version"
+        const val azureExchange = "$groupId:token-support-azure-exchange:$version"
+        const val azureValidation = "$groupId:token-support-azure-validation:$version"
+        const val idporten = "$groupId:token-support-idporten:$version"
+        const val tokendingsExchange = "$groupId:token-support-tokendings-exchange:$version"
+        const val tokenXValidation = "$groupId:token-support-tokenx-validation:$version"
+    }
+}
+
 object ULID {
     private const val version = "8.2.0"
     private const val groupId = "de.huxhorn.sulky"

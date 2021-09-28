@@ -21,7 +21,7 @@ object Bouncycastle {
 
 object Brukernotifikasjon {
     private const val version = "1.2021.08.27-09.12-f8a8cbc76319"
-    private const val version_internal = "1.2021.06.21-08.21-5d16e1d6154b"
+    private const val version_internal = "1.2021.09.27-09.56-fee7c58af3ee"
     const val schemas = "com.github.navikt:brukernotifikasjon-schemas:$version"
     const val schemas_internal = "com.github.navikt:brukernotifikasjon-schemas-internal:$version_internal"
 }

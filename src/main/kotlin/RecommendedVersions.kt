@@ -175,9 +175,7 @@ object Logstash {
 
 object Micrometer {
     private const val version = "1.7.0"
-    private const val groupId = "io.micrometer"
-
-    const val registryPrometheus = "$groupId:micrometer-registry-prometheus:$version"
+    const val registryPrometheus = "io.micrometer:micrometer-registry-prometheus:$version"
 }
 
 object Mockk {

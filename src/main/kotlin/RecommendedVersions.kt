@@ -156,6 +156,7 @@ object Ktor {
     const val clientLoggingJvm = "$groupId:ktor-client-logging-jvm:$version"
     const val clientMock = "$groupId:ktor-client-mock:$version"
     const val clientMockJvm = "$groupId:ktor-client-mock-jvm:$version"
+    const val metricsMicrometer = "$groupId:ktor-metrics-micrometer:$version"
     const val serverTestHost = "$groupId:ktor-server-test-host:$version"
     const val serialization = "$groupId:ktor-serialization:$version"
 }
@@ -168,6 +169,13 @@ object Logback {
 object Logstash {
     private const val version = "6.4"
     const val logbackEncoder = "net.logstash.logback:logstash-logback-encoder:$version"
+}
+
+object Micrometer {
+    private const val version = "1.7.0"
+    private const val groupId = "io.micrometer"
+
+    const val registryPrometheus = "$groupId:micrometer-registry-prometheus:$version"
 }
 
 object Mockk {

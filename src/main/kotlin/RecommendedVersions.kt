@@ -9,9 +9,8 @@ object Auth0 {
 
 object Awaitility {
     private const val version = "4.0.3"
-    private const val groupId = "org.awaitility"
 
-    const val awaitilityKotlin = "$groupId:awaitility-kotlin:$version"
+    const val awaitilityKotlin = "org.awaitility:awaitility-kotlin:$version"
 }
 
 object Bouncycastle {

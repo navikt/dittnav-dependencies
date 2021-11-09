@@ -111,12 +111,12 @@ object Kafka {
 }
 
 object Kluent {
-    private const val version = "1.61"
+    private const val version = "1.68"
     const val kluent = "org.amshove.kluent:kluent:$version"
 }
 
 object Kotest {
-    const val version = "4.3.1"
+    const val version = "4.6.3"
     private const val groupId = "io.kotest"
 
     const val runnerJunit5 = "$groupId:kotest-runner-junit5:$version"
@@ -125,7 +125,7 @@ object Kotest {
 }
 
 object Kotlin {
-    const val version = "1.4.10"
+    const val version = "1.4.31"
     private const val groupId = "org.jetbrains.kotlin"
 
     const val reflect = "$groupId:kotlin-reflect:$version"
@@ -134,13 +134,13 @@ object Kotlin {
 object Kotlinx {
     private const val groupId = "org.jetbrains.kotlinx"
 
-    const val coroutines = "$groupId:kotlinx-coroutines-core:1.3.9"
+    const val coroutines = "$groupId:kotlinx-coroutines-core:1.5.2"
     const val htmlJvm = "$groupId:kotlinx-html-jvm:0.7.2"
     const val atomicfu = "$groupId:atomicfu:0.14.4"
 }
 
 object Ktor {
-    private const val version = "1.5.2"
+    private const val version = "1.6.5"
     private const val groupId = "io.ktor"
 
     const val auth = "$groupId:ktor-auth:$version"
@@ -162,12 +162,14 @@ object Ktor {
 }
 
 object Logback {
-    private const val version = "1.2.3"
+    // Velger å ta i bruk følgende alpha-versjon, fordi det har fikset feilen som kan gi stackoverflow i Logback i Ktor:
+    // https://youtrack.jetbrains.com/issue/KTOR-2040#focus=Comments-27-5225266.0-0
+    private const val version = "1.3.0-alpha10"
     const val classic = "ch.qos.logback:logback-classic:$version"
 }
 
 object Logstash {
-    private const val version = "6.4"
+    private const val version = "6.6"
     const val logbackEncoder = "net.logstash.logback:logstash-logback-encoder:$version"
 }
 
@@ -179,7 +181,7 @@ object Micrometer {
 }
 
 object Mockk {
-    private const val version = "1.10.0"
+    private const val version = "1.10.5"
     const val mockk = "io.mockk:mockk:$version"
 }
 

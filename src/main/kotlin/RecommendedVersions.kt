@@ -111,7 +111,7 @@ object Kafka {
 }
 
 object Kluent {
-    private const val version = "1.61"
+    private const val version = "1.68"
     const val kluent = "org.amshove.kluent:kluent:$version"
 }
 
@@ -135,7 +135,7 @@ object Kotlinx {
     private const val groupId = "org.jetbrains.kotlinx"
 
     const val coroutines = "$groupId:kotlinx-coroutines-core:1.3.9"
-    const val htmlJvm = "$groupId:kotlinx-html-jvm:0.7.2"
+    const val htmlJvm = "$groupId:kotlinx-html-jvm:0.7.3"
     const val atomicfu = "$groupId:atomicfu:0.14.4"
 }
 

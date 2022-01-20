@@ -125,7 +125,7 @@ object Kotest {
 }
 
 object Kotlin {
-    const val version = "1.4.10"
+    const val version = "1.6.10"
     private const val groupId = "org.jetbrains.kotlin"
 
     const val reflect = "$groupId:kotlin-reflect:$version"
@@ -140,7 +140,7 @@ object Kotlinx {
 }
 
 object Ktor {
-    private const val version = "1.5.2"
+    private const val version = "1.6.7"
     private const val groupId = "io.ktor"
 
     const val auth = "$groupId:ktor-auth:$version"
@@ -186,7 +186,7 @@ object Mockk {
 object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.7"
     const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.5.0"
-    const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.0"
+    const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.10"
     const val customKtorCorsFeature = "com.github.navikt:wildcard-subdomain-ktor-cors-feature:2020.11.03-14.59-81af587291fd"
 }
 

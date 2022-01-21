@@ -102,7 +102,7 @@ object Kafka {
     }
 
     object Confluent {
-        private const val version = "5.5.0"
+        private const val version = "6.2.1"
         private const val groupId = "io.confluent"
 
         const val avroSerializer = "$groupId:kafka-avro-serializer:$version"
@@ -185,7 +185,7 @@ object Mockk {
 
 object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.7"
-    const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.5.0"
+    const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.8.1"
     const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.10"
     const val customKtorCorsFeature = "com.github.navikt:wildcard-subdomain-ktor-cors-feature:2020.11.03-14.59-81af587291fd"
 }

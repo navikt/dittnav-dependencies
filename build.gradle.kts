@@ -8,7 +8,7 @@ kotlinDslPluginOptions {
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 group = "no.nav.personbruker.dittnav"

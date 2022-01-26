@@ -222,13 +222,14 @@ object TestContainers {
 
 object Tms {
     object KtorTokenSupport {
-        private const val version = "2021.12.01-11.04-9af53ab1fe76"
+        private const val version = "2022.01.26-11.39-189d5a97ee9e"
         private const val groupId = "com.github.navikt.tms-ktor-token-support"
 
         const val authenticationInstaller = "$groupId:token-support-authentication-installer:$version"
         const val azureExchange = "$groupId:token-support-azure-exchange:$version"
         const val azureValidation = "$groupId:token-support-azure-validation:$version"
         const val idporten = "$groupId:token-support-idporten:$version"
+        const val idportenSidecar = "$groupId:token-support-idporten-sidecar:$version"
         const val tokendingsExchange = "$groupId:token-support-tokendings-exchange:$version"
         const val tokenXValidation = "$groupId:token-support-tokenx-validation:$version"
     }

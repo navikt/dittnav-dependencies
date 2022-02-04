@@ -51,6 +51,14 @@ object Flyway {
     const val core = "org.flywaydb:flyway-core:$version"
 }
 
+object GraphQL {
+    const val version = "5.3.2"
+    private const val groupId = "com.expediagroup"
+    const val pluginId = "com.expediagroup.graphql"
+
+    const val client = "$groupId:graphql-kotlin-client:$version"
+}
+
 object H2Database {
     private const val version = "1.4.200"
     const val h2 = "com.h2database:h2:$version"

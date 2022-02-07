@@ -56,7 +56,8 @@ object GraphQL {
     private const val groupId = "com.expediagroup"
     const val pluginId = "com.expediagroup.graphql"
 
-    const val client = "$groupId:graphql-kotlin-client:$version"
+    const val kotlinClient = "$groupId:graphql-kotlin-client:$version"
+    const val kotlinKtorClient = "$groupId:graphql-kotlin-ktor-client:$version"
 }
 
 object H2Database {

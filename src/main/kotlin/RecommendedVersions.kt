@@ -146,6 +146,7 @@ object Kotlinx {
     const val coroutines = "$groupId:kotlinx-coroutines-core:1.3.9"
     const val htmlJvm = "$groupId:kotlinx-html-jvm:0.7.3"
     const val atomicfu = "$groupId:atomicfu:0.14.4"
+    const val datetime = "$groupId:kotlinx-datetime:0.3.2"
 }
 
 object Ktor {

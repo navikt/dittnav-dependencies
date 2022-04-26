@@ -217,7 +217,7 @@ object Prometheus {
 }
 
 object Shadow {
-    const val version = "6.0.0"
+    const val version = "7.1.2"
     const val pluginId = "com.github.johnrengelman.shadow"
 }
 

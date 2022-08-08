@@ -201,7 +201,7 @@ object NAV {
 }
 
 object Postgresql {
-    private const val version = "42.2.16"
+    private const val version = "42.4.1"
     const val postgresql = "org.postgresql:postgresql:$version"
 }
 

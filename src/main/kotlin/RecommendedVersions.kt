@@ -171,6 +171,45 @@ object Ktor {
     const val serialization = "$groupId:ktor-serialization:$version"
 }
 
+object Ktor2 {
+    private const val version = "2.1.0"
+    private const val groupId = "io.ktor"
+    private const val tmsGroupId = "com.github.navikt.tms-ktor-token-support"
+    private const val tmsSupportversion = "2.0.0"
+    const val kotlinX = "$groupId:io.ktor:ktor-serialization-kotlinx-json:$version"
+    object Server {
+        private const val prefix = "$groupId:ktor-server"
+        const val core = "$prefix-core:$version"
+        const val netty = "$prefix-netty:$version"
+        const val defaultHeaders = "$prefix-deafult-headers:$version"
+        const val metricsMicrometer = "$prefix-metrics-micrometer:$version"
+        const val auth = "$prefix-auth:$version"
+        const val contentNegotiation = "$prefix-content-negotiation:$version"
+    }
+
+    object Client {
+        private const val prefix = "$groupId:ktor-client"
+        const val core = "$prefix-core:$version"
+        const val apache = "$prefix-apache:$version"
+        const val contentNegotiation = "$prefix-content-negotiation:$version"
+    }
+
+    object TmsTokenSupport {
+        private const val prefix = "$tmsGroupId:token-support"
+        const val authenticationInstaller = "$prefix-authentication-installer:$tmsSupportversion"
+        const val azureExchange = "$prefix-azure-exchange:$tmsSupportversion"
+        const val azureValidation = "$prefix-azure-validation:$tmsSupportversion"
+        const val tokenXValidation = "$prefix-tokenx-validation:$tmsSupportversion"
+        const val authenticationInstallerMock = "$tmsGroupId:token-support-authentication-installer-mock:$tmsSupportversion"
+        const val tokenXValidationMock = "$tmsGroupId:token-support-tokenx-validation-mock:$tmsSupportversion"
+    }
+
+    object Test {
+        const val clientMock = "io.ktor:ktor-client-mock:$version"
+        const val serverTestHost = "io.ktor:ktor-server-test-host:$version"
+    }
+}
+
 object Logback {
     private const val version = "1.2.3"
     const val classic = "ch.qos.logback:logback-classic:$version"
@@ -197,7 +236,8 @@ object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.7"
     const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.8.1"
     const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.10"
-    const val customKtorCorsFeature = "com.github.navikt:wildcard-subdomain-ktor-cors-feature:2020.11.03-14.59-81af587291fd"
+    const val customKtorCorsFeature =
+        "com.github.navikt:wildcard-subdomain-ktor-cors-feature:2020.11.03-14.59-81af587291fd"
 }
 
 object Postgresql {

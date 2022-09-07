@@ -89,7 +89,6 @@ object Junit {
     const val engine = "$groupId:junit-jupiter-engine:$version"
     const val params = "$groupId:junit-jupiter-params:$version"
 }
-
 object Jjwt {
     private const val version = "0.11.2"
     private const val groupId = "io.jsonwebtoken"
@@ -184,8 +183,10 @@ object Ktor2 {
         const val defaultHeaders = "$prefix-default-headers:$version"
         const val metricsMicrometer = "$prefix-metrics-micrometer:$version"
         const val auth = "$prefix-auth:$version"
+        const val authJwt ="$prefix-auth-jwt:$version"
         const val contentNegotiation = "$prefix-content-negotiation:$version"
         const val statusPages = "$prefix-status-pages:$version"
+        const val htmlDsl ="$prefix-html-builder:$version"
     }
 
     object Client {

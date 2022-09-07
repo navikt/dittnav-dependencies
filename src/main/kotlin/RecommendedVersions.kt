@@ -172,7 +172,7 @@ object Ktor {
 }
 
 object Ktor2 {
-    private const val version = "2.1.0"
+    private const val version = "2.1.1"
     private const val groupId = "io.ktor"
     private const val tmsGroupId = "com.github.navikt.tms-ktor-token-support"
     private const val tmsSupportversion = "2.0.0"
@@ -185,6 +185,7 @@ object Ktor2 {
         const val metricsMicrometer = "$prefix-metrics-micrometer:$version"
         const val auth = "$prefix-auth:$version"
         const val contentNegotiation = "$prefix-content-negotiation:$version"
+        const val statusPages = "$prefix-status-pages:$version"
     }
 
     object Client {

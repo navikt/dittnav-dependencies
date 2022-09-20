@@ -187,6 +187,7 @@ object Ktor2 {
         const val contentNegotiation = "$prefix-content-negotiation:$version"
         const val statusPages = "$prefix-status-pages:$version"
         const val htmlDsl ="$prefix-html-builder:$version"
+        const val cors = "$prefix-cors:$version"
     }
 
     object Client {

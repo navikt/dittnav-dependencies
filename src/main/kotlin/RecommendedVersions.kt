@@ -206,6 +206,7 @@ object Ktor2 {
         const val authenticationInstallerMock = "$tmsGroupId:token-support-authentication-installer-mock:$tmsSupportversion"
         const val tokenXValidationMock = "$tmsGroupId:token-support-tokenx-validation-mock:$tmsSupportversion"
         const val azureValidationMock = "$tmsGroupId:token-support-azure-validation-mock:$tmsSupportversion"
+        const val tokendingsExchange = "$tmsGroupId:token-support-tokendings-exchange:$tmsSupportversion"
     }
 
     object Test {
@@ -240,6 +241,7 @@ object NAV {
     const val vaultJdbc = "no.nav:vault-jdbc:1.3.7"
     const val kafkaEmbedded = "no.nav:kafka-embedded-env:2.8.1"
     const val tokenValidatorKtor = "no.nav.security:token-validation-ktor:1.3.10"
+    const val tokenValidatorKtor2 = "no.nav.security:token-validation-ktor-v2:2.1.4"
     const val customKtorCorsFeature =
         "com.github.navikt:wildcard-subdomain-ktor-cors-feature:2020.11.03-14.59-81af587291fd"
 }

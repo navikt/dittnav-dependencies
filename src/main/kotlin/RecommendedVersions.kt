@@ -33,15 +33,12 @@ object Doknotifikasjon {
 
 object DittNAV {
     object Common {
-        private const val version = "2021.05.18-12.42-9ba5c329c21d"
+        private const val version = "2022.09.23-13.40-c194c686dc52"
         private const val groupId = "com.github.navikt.dittnav-common-lib"
 
         const val logging = "$groupId:dittnav-common-logging:$version"
-        const val influx = "$groupId:dittnav-common-influx:$version"
         const val influxdb = "$groupId:dittnav-common-influxdb:$version"
-        const val securityAuthenticatedUser = "$groupId:dittnav-common-security-authenticated-user:$version"
         const val utils = "$groupId:dittnav-common-utils:$version"
-        const val evictingCache = "$groupId:dittnav-common-evicting-cache:$version"
     }
 }
 
@@ -216,7 +213,7 @@ object Ktor2 {
 }
 
 object Logback {
-    private const val version = "1.2.3"
+    private const val version = "1.4.1"
     const val classic = "ch.qos.logback:logback-classic:$version"
 }
 

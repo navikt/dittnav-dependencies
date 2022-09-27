@@ -135,6 +135,12 @@ object Kotlin {
     const val reflect = "$groupId:kotlin-reflect:$version"
 }
 
+object KotlinLogging {
+    private const val version = "3.0.0"
+
+    const val logging = "io.github.microutils:kotlin-logging:$version"
+}
+
 object Kotlinx {
     private const val groupId = "org.jetbrains.kotlinx"
 

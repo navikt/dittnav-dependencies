@@ -36,7 +36,6 @@ object DittNAV {
         private const val version = "2022.09.23-13.40-c194c686dc52"
         private const val groupId = "com.github.navikt.dittnav-common-lib"
 
-        const val logging = "$groupId:dittnav-common-logging:$version"
         const val influxdb = "$groupId:dittnav-common-influxdb:$version"
         const val utils = "$groupId:dittnav-common-utils:$version"
     }

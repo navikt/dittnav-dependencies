@@ -33,7 +33,7 @@ object Doknotifikasjon {
 
 object DittNAV {
     object Common {
-        private const val version = "2022.09.23-13.40-c194c686dc52"
+        private const val version = "2022.09.30-12.41-aa46d2d75788"
         private const val groupId = "com.github.navikt.dittnav-common-lib"
 
         const val influxdb = "$groupId:dittnav-common-influxdb:$version"

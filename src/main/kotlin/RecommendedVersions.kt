@@ -1,7 +1,7 @@
 /**
  * Anbefalte versjoner av tredjepartsbiblioteker.
  */
-const val RapidsAndRivers = "2022100711511665136276.49acbaae4ed4"
+const val RapidsAndRivers = "com.github.navikt:rapids-and-rivers:2022100711511665136276.49acbaae4ed4"
 object Auth0 {
     private const val version = "3.11.0"
     const val javajwt = "com.auth0:java-jwt:$version"

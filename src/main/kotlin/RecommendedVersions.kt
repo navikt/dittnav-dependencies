@@ -1,7 +1,7 @@
 /**
  * Anbefalte versjoner av tredjepartsbiblioteker.
  */
-
+const val RapidsAndRivers = "2022100711511665136276.49acbaae4ed4"
 object Auth0 {
     private const val version = "3.11.0"
     const val javajwt = "com.auth0:java-jwt:$version"
@@ -178,6 +178,7 @@ object Ktor2 {
     private const val tmsGroupId = "com.github.navikt.tms-ktor-token-support"
     private const val tmsSupportversion = "2.0.0"
     const val kotlinX = "$groupId:ktor-serialization-kotlinx-json:$version"
+    const val jackson = "$groupId:ktor-serialization-jackson:$version"
     object Server {
         private const val prefix = "$groupId:ktor-server"
         const val core = "$prefix-core:$version"

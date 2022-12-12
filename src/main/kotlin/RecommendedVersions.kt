@@ -211,6 +211,7 @@ object Ktor2 {
         const val tokenXValidationMock = "$tmsGroupId:token-support-tokenx-validation-mock:$tmsSupportversion"
         const val azureValidationMock = "$tmsGroupId:token-support-azure-validation-mock:$tmsSupportversion"
         const val tokendingsExchange = "$tmsGroupId:token-support-tokendings-exchange:$tmsSupportversion"
+        const val idportenSidecar = "$tmsGroupId:token-support-idporten-sidecar:$tmsSupportversion"
     }
 
     object Test {
